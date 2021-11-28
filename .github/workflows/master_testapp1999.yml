@@ -24,7 +24,7 @@ jobs:
 
       - name: Build with dotnet
         run: dotnet build --configuration Release
-        working-directory: ./LorryLogadmin
+        working-directory: ././LorryLogadmin
 
       - name: dotnet publish
         working-directory: ./LorryLogadmin
